@@ -1,0 +1,10 @@
+name: Beginning
+on: workflow_dispatch
+jobs:
+  begin_job:
+    runs-on: ububtu-latest
+    steps:
+      - name: Print motivation
+        run: echo "Let's begin"
+      - name: Another motivation
+        run: echo "Either do it or don't do it"
